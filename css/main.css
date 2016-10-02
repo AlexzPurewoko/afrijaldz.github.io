@@ -4,4 +4,8 @@ body{background:#232323; color: #FFF; margin:0; display:-webkit-box;display:-moz
 pre{margin:10px;min-width:622px; }
 code{font-size:150%;font-family:'Bitstream Vera Sans', monospace}
 h1,h2{display:inline;font-weight:normal;font-size:1em}
-a{color: #FFF; text-decoration: initial}
+a{color: #FFF; text-decoration: none }
+a:hover{
+  text-decoration: underline;
+  color: #FFEB3B;
+}
